@@ -1,0 +1,32 @@
+[
+    {
+        "userId": 1,
+        "username": "ali",
+        "contact": "998941024578"
+    },
+    {
+        "userId": 2,
+        "username": "nosir",
+        "contact": "998941023697"
+    },
+    {
+        "userId": 3,
+        "username": "aziza",
+        "contact": "998941028520"
+    },
+    {
+        "userId": 4,
+        "username": "salim",
+        "contact": "998902122354"
+    },
+    {
+        "userId": 5,
+        "username": "sardor",
+        "contact": "998902122354"
+    },
+    {
+        "userId": 6,
+        "username": "abdulaziz",
+        "contact": "998998605105"
+    }
+]
