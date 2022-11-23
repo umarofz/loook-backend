@@ -4,6 +4,7 @@ import orderController from './controllers/order.controller.js'
 import userController from './controllers/user.controller.js'
 import Express from './lib/express.js'
 
+const PORT = process.env.PORT || 5000
 
 function httpServer(req, res) {
     const app = new Express(req, res)
@@ -17,4 +18,4 @@ function httpServer(req, res) {
 
 const server = http.createServer( httpServer )
 
-server.listen(5000, () => console.log('server ready at *5000'))
+server.listen(PORT, () => console.log('server ready at *5000'))
