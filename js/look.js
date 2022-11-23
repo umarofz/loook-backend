@@ -10,7 +10,7 @@ const customersList = document.querySelector('.customers-list')
 const telephoneInput = document.querySelector('#telephoneInput')
 
 
-const API = 'http://localhost:5000'
+const API = 'https://loook-backend.herokuapp.com'
 
 async function renderOrders (userId) {
 	ordersList.innerHTML = null
